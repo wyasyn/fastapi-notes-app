@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database file
+notes.db
+*.db
+
+# Environment variables and secrets
+.env
+key.json
+
+# Virtual environments
+env/
+venv/
+
+# Git metadata
+.git
+.gitignore
+
+# CI/CD configs (we don’t need these in the image)
+.github/
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Docker compose files (if any)
+docker-compose*.yml
+
+# Logs
+*.log

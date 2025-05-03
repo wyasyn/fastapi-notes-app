@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# SQLite databases
+notes.db
+*.db
+
+# Environment variables
+.env
+
+# Service account keys
+key.json
+
+# Virtual environments
+env/
+venv/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Docker-related
+docker-compose*.yml
+
+# GitHub Actions secrets (ensure these aren’t accidentally committed)
+*.yml
